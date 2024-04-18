@@ -110,7 +110,7 @@ class Player extends Square {
         movementSpeed = 0
         targetMovementSpeed = 0
         ui.button.show()
-        sounds["music"].pause()
+        //sounds["music"].pause()
     }
 
     isOnGround() {
