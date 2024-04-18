@@ -2,7 +2,7 @@ var grassImg,
     coinImg, 
     dimImg, 
     ui, 
-    spikeImages, 
+    //spikeImages, 
     bgImg, 
     bottomImg,
     rockImg,
@@ -37,11 +37,11 @@ function loadImages() {
     rockImg = loadImage("assets/rocks.png")
     dirtImg = loadImage("assets/dirt.png")
 
-    spikeImages = [
+    /*spikeImages = [
         loadImage("assets/spikes 1.png"),
         loadImage("assets/spikes 2.png"),
         loadImage("assets/spikes 3.png"),
-    ]
+    ]*/
 
     for (let name of playerSpriteNames)
     {
