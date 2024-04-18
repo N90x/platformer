@@ -27,7 +27,7 @@ class UI {
             player.score = 0
             Body.setPosition(player.body, {x: playerX, y: height - playerSize * 2})
             movementSpeed = 10
-            sounds["music"].play
+            //sounds["music"].play
             this.hide()
         })
 
